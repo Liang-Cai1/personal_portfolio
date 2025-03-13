@@ -65,15 +65,19 @@ nav a {
     padding: 1em;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background: #f9f9f9;
+    background: #aba1bd;
     justify-content: center;
 }
 
 #projects img {
+    display: flex;
     width: 100%;
     max-width: 150px;
     height: auto;
     border-radius: 8px;
+    justify-content: normal;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 /* Contact Section Styling */
