@@ -12,13 +12,17 @@ body, h1, h2, h3, p, ul, li, nav {
 header {
     background-color: #1a6ea7;
     color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    padding: 1em 0;
 }
 
 nav a {
@@ -28,8 +32,12 @@ nav a {
 
 /* About Section Styling */
 #about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     background: #7da186;
 }
 
@@ -43,8 +51,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 2em;
-    
+    padding: 2em;    
 }
 
 .skill {
@@ -55,6 +62,10 @@ nav a {
     background: #e7b675;
     padding: 1em;
     border-radius: 8px;
+}
+.skill:hover {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 /* Projects Section Styling */
@@ -82,10 +93,13 @@ nav a {
 
 /* Contact Section Styling */
 #contact {
-    background: #f3f3f3;
-    padding: 2em;
     text-align: center;
     background: #b99f8d;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 /* Responsive Design */
